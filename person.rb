@@ -1,22 +1,20 @@
 class Person
-  def initialize(age, name = 'Unknown', parent_permision = true)
-    @id
+  def initialize(age, name = 'Unknown', parent_permision : true)
+    @id = Random.rand(1..10000)
     @name = name
     @age = age
     @parent_permision = parent_permision
   end
 
   # getters
-  attr_reader :id
-  attr_reader :name
-  attr_reader :age
+  attr_reader :id, :name, :age
 
   # setters
-  def setId(value)
+  def update_id(value)
     @id = value
   end
 
-  def setName(value)
+  def update_name(value)
     @name = value
   end
 
