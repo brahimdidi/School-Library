@@ -30,7 +30,7 @@ class Person < Nameable
     of_age? || @parent_permision
   end
 
-  # add rentals 
+  # add rentals
   def add_rental rental
     rentals << rental
   end
