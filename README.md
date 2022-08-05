@@ -1,16 +1,17 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# School Library
 
 > Description the project.
+This is a database created using ruby classes
+to link classes in the best possible way.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
-
+- Major languages Ruby
+- Frameworks none
+- Technologies used VsCode
+ 
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
@@ -25,10 +26,16 @@
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+vs code 
+or any code editor
 
 ### Setup
+clone the repository .
+open the folder with your favorite 
+code editor
 
 ### Install
+bundle Install
 
 ### Usage
 
@@ -42,15 +49,10 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
+- GitHub: [@githubhandle](https://github.com/brahimdidi)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
