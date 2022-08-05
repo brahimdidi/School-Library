@@ -1,27 +1,29 @@
 require_relative './decorate'
 
 class Person < Nameable
+  # getters
+  attr_reader :id, :name, :age
+  attr_accessor :rentals
+
   def initialize(age, name = 'Unknown', parent_permision = true)
     super()
     @id = Random.rand(1..10_000)
     @name = name
     @age = age
     @parent_permision = parent_permision
+    @rentals = []
   end
-
-  # getters
-  attr_reader :id, :name, :age
 
   def correct_name
     @name
   end
 
   # setters
-  def update_id(value)
+  def update_id=(value)
     @id = value
   end
 
-  def update_name(value)
+  def update_name=(value)
     @name = value
   end
 
