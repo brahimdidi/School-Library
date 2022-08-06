@@ -6,7 +6,7 @@ require_relative "./classroom"
 require_relative "./teacher"
 
 class App
-  @Rentals = []
+
   def list_all_books
     books = Book.books
     books.select do |book|
