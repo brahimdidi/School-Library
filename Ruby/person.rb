@@ -5,17 +5,24 @@ class Person < Nameable
   attr_reader :id, :name, :age
   attr_accessor :rentals
 
+  @@people = []
+
   def initialize(age, name = 'Unknown', parent_permision = true)
     super()
-    @id = Random.rand(1..10_000)
+    @id = Random.rand(0..1000)
     @name = name
     @age = age
     @parent_permision = parent_permision
     @rentals = []
+    @@people << self
   end
 
   def correct_name
     @name
+  end
+
+  def self.people
+    @@people
   end
 
   # setters
